@@ -1,4 +1,4 @@
 # RealState_WebProject
 
 Front-end project.
-HTML/CSS mainly.
+Main resources: HTML/CSS.
