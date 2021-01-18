@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+    <header class= "site-header">
+        <div class="container content-header">
+            <div class="bar">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+            
+                <nav class= "navigation">
+                    <a href="about.html">About Us</a>
+                    <a href="listings.html">Listings</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        
+        </div> <!-- container closure -->
+    </header>
+   
+    <h1 class="fw300 center-text">Get in touch with us</h1>
+    <img src="img/destacada3.jpg" alt="Main image.">
+
+    <main class="container section centered-content">
+        <h2 class="fw300 center-text">Please fill this form</h2>
+
+        <form action="">
+
+            <fieldset>
+                <legend> Personal information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name" placeholder="Full Name" required>
+            
+                <label for="emailadress">E-mail:</label>
+                <input type="email" name="" id="emailadress" placeholder="Your e-mail adress" required>
+            
+                <label for="phonenumber">Phone number:</label>
+                <input type="tel" name="" id="phonenumber" placeholder="Your phone number">
+            
+                <label for="message">Message</label>
+                <textarea name="User message" id="message"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Property information</legend>
+                <label for="options">Buying or selling</label>
+                <select name="" id="options">
+                    <option value="" disabled selected>-- Select --</option>
+                    <option value="Buy">Buying</option>
+                    <option value="Sell">Selling</option>
+                </select>
+
+                <label for="budget">Budget</label>
+                <input type="number" name="" id="budget">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Contact</legend>
+                <p>Select your preferable contact method:</p>
+
+                <div class="contact-form">
+                    <label for="phone">Phone</label>
+                    <input type="radio" name="contact" value="Contact by phone" id="phone">
+                
+                    <label for="email">E-mail</label>
+                    <input type="radio" name="contact" value="Contact by email" id="email">
+                </div>
+
+                <p>If you chose to be contacted by phone, please choose the time and date of preference:</p>
+                <label for="chosen-date">Date:</label>
+                <input type="date" name="" id="chosen-date">
+                <label for="chosen-time">Time:</label>
+                <input type="time" name="" id="chosen-time" min="09:00" max="18:00">
+
+            </fieldset>
+
+            <input type="submit" value="Send" class="button green-button">
+        </form>
+
+    </main>
+    
+    <footer class="site-footer section">
+        <div class="container footer-container">
+            <nav class="navigation">
+                <a href="about.html">About Us</a>
+                <a href="news.html">News</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <p class="copyright">All Rights Reserved, 2020 &copy;</p>
+        </div>
+    </footer>
+    
+    
+
+</body>
+</html>
+
